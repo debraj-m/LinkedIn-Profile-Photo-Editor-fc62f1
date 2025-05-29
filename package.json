@@ -1,0 +1,33 @@
+{
+  "name": "photo-editor-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A REACT-based web application that enables users to upload, edit, and enhance their photos with various filters and editing tools.",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-image-filter": "^0.1.2",
+    "react-cropper": "^2.3.3",
+    "browser-image-compression": "^2.0.2",
+    "cropperjs": "^1.5.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "serve -s build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
